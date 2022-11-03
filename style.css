@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+
+body{
+    font-family: 'Trispace', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    padding-top: 1rem;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+display: block;
+padding: .5rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.nav-link{
+    text-transform: capitalize;
+    color: hsl(233, 8%, 79%);
+    font-weight: 800;
+}
+
+.nav-link:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.news-section{
+    display: flex;
+        padding-bottom: 2rem;
+}
+
+.news-section img{
+    padding-top: 1rem;
+}
+
+.news{
+    padding: 0rem 2rem;
+   background-color: hsl(240, 100%, 5%);
+   margin: 1rem 1.3rem;
+}
+
+.news-head{
+    color: hsl(35, 77%, 62%);
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.news-h{
+   color: hsl(36, 100%, 99%);
+}
+
+.news-h:hover{
+    color :hsl(35, 77%, 62%);
+}
+
+.news-p{
+    font-size: 15px;
+    color: hsl(36, 100%, 99%);
+}
+
+.br-line{
+    border-bottom: 1px solid hsl(36, 100%, 99%);
+}
+
+.abt-web{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+
+}
+
+.abt-web p{
+    width: 24rem;
+    margin-top: 3rem;
+    font-size: 15px;
+    margin-bottom: 2rem;
+    color: hsl(236, 13%, 42%);
+}
+
+.abt-web h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 24rem;
+    color: hsl(240, 100%, 5%);
+}
+
+.abt-web a {
+    text-decoration: none;
+}
+
+.btn-link{
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    text-transform: uppercase;
+    padding: .5rem 1.4rem;
+    font-weight: 400;
+}
+
+.btn-link:hover{
+  background-color: hsl(240, 100%, 5%);
+}
+
+.last-sec{
+    display: flex;
+        justify-content: space-between;
+    }
+
+.group{
+    display: flex;
+        justify-content: space-between;
+}
+
+
+.last-sec img{
+    width: 130px;
+}
+
+.list-news{
+    padding: 0rem .5rem;
+}
+
+.list-news h1{
+    color: hsl(236, 13%, 42%);
+}
+
+.list-news h4{
+    color: hsl(240, 100%, 5%);
+}
+
+.list-news h4:hover{
+    color :hsl(5, 85%, 63%);
+}
+
+.list-news p{
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    width: 17rem;
+}
+
+
+@media (max-width:756px) {
+    *{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+
+    nav img{
+        width: 20px; height: 20px;
+    }
+
+    img{
+        width: 400px;
+    }
+
+
+
+    .news{
+margin: 0;
+margin-top: 2rem;
+padding: 1rem;
+    }
+
+    .br-line{
+        padding-bottom: 1rem;
+    }
+
+    .news-h{
+        padding-top: 1rem;
+    }
+
+    .news-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .abt-web{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .last-sec{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list-news{
+        display: block;
+            
+    }
+}
